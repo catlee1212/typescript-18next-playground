@@ -1,0 +1,53 @@
+{
+  "greeting": "Hallo $t(name)",
+  "name": "{{name}}",
+  "headlines": {
+    "interpolation": "Interpolation",
+    "numbers": "Nummern",
+    "currency": "Währung",
+    "date": "Datum",
+    "plurals": "Plurals",
+    "intervalPlurals": "Interval Plurals"
+  },
+  "minimal": {
+    "simpleText": " hätte ich gerne ",
+    "todaysDate": "Am {{val, datetime}}",
+    "currencyNumber": " welche nicht {{val, currency(currency: EUR)}} kosten.",
+    "plurals": {
+      "key_one": "Katze",
+      "key_other": "Gib mir mehr Katzen",
+      "keyWithCount_one": " {{count}} Katze",
+      "keyWithCount_other": " {{count}} Katzen"
+    }
+  },
+  "title": "Das ist ein einfacher text.",
+  "description": {
+    "part1": "Das ist einen namespace tiefer."
+  },
+  "interpolation": "{{name}}, Das wird Interpolation genannt. Der Name kann als Parameter mitgegeben werden.",
+  "numbers": {
+    "intlNumber": "Irgendwas {{val, number}} normale intl number.",
+    "intlNumberWithOptions": "Irgendwas {{val, number(minimumFractionDigits: 2)}}. Intl Nummer mit vordefinierten Werten und mindestens zwei Kommastellen."
+  },
+  "currency": {
+    "intlCurrencyWithOptions": "Der Wert ist {{val, currency(currency: EUR)}}",
+    "intlCurrencyWithOptionsSimplified": "Wert ist {{val, currency(EUR)}}"
+  },
+  "dates": {
+    "intlDateTime": "Das ist das heutige Datum: {{val, datetime}}"
+  },
+  "rating": {
+    "key_one": "Rating",
+    "key_other": "Ratings",
+    "keyWithCount_one": "{{count}} Rating",
+    "keyWithCount_other": "{{count}} Ratings"
+  },
+  "intervalPlurals": {
+    "key1_one": "{{count}} item",
+    "key1_other": "{{count}} items",
+    "key1_interval": "(1)[one item];(2-7)[a few items];(7-inf)[a lot of items];",
+    "key2_one": "{{count}} item",
+    "key2_other": "{{count}} items",
+    "key2_interval": "(1)[one item];(2-7)[a few items];"
+  }
+}
